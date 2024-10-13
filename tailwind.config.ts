@@ -11,6 +11,9 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        "inspiry": "#2D87E3",
+        "inspiry-secondary": "#2074C9",
+        "inspiry-dark": "#22313F",
       },
     },
   },
