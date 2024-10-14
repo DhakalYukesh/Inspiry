@@ -9,14 +9,12 @@ const Footer = () => {
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    // Handle newsletter subscription logic here
     alert(`Subscribed with: ${email}`);
     setEmail("");
   };
 
   return (
     <footer className="bg-white pt-12 pb-8 border-t border-gray-200">
-      {/* Top section with newsletter and links */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-10">
           {/* Newsletter Section */}

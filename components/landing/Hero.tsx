@@ -1,4 +1,3 @@
-import React from "react";
 import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 
 const Hero = () => {
