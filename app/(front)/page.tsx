@@ -12,7 +12,7 @@ export default function Home() {
         <div className="absolute bottom-auto left-auto right-0 top-0 h-[500px] w-[500px] -translate-x-[30%] translate-y-[20%] rounded-full bg-[rgba(109,156,244,0.48)] opacity-50 blur-[80px]"></div>
       </div>
       <RecentBlogs />
-      <AllBlogs />
+      <AllBlogs blogsLimit={6} />
       <InspiryBanner />
     </>
   );

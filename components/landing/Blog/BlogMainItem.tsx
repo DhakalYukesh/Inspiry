@@ -12,7 +12,7 @@ const BlogMainItem = ({ blog }: BlogMainItemProps) => {
   const router = useRouter();
 
   const handleNavigation = () => {
-    router.push(`/blog/${blog.id}`);
+    router.push(`/blogs/${blog.id}`);
   };
 
   return (
