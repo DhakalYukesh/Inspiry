@@ -76,10 +76,10 @@ const blogs = [
   },
 ];
 
-const blogsPerPage = 6;
-
-const AllBlogs = () => {
+const AllBlogs = ({ blogsLimit }: { blogsLimit: number | bigint }) => {
   const [currentPage, setCurrentPage] = useState(0);
+  const blogsPerPage =
+    typeof blogsLimit === "bigint" ? Number(blogsLimit) : blogsLimit;
 
   // Get current blogs based on the page
   const offset = currentPage * blogsPerPage;

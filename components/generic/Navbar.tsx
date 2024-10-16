@@ -10,8 +10,8 @@ const Navbar = () => {
 
   const menuItems = [
     { name: "Home", href: "/" },
-    { name: "Company", href: "/" },
-    { name: "Blog", href: "/blogs" },
+    { name: "All Blogs", href: "/blogs" },
+    { name: "Company", href: "/company" },
     { name: "Contact", href: "/contact" },
   ];
 
@@ -85,6 +85,15 @@ const Navbar = () => {
                   </Link>
                 </li>
               ))}
+
+              <li>
+                <Link
+                  className="block rounded-lg bg-gray-100 px-4 py-2 text-gray-900 hover:bg-gray-200"
+                  href="#"
+                >
+                  Register
+                </Link>
+              </li>
             </ul>
           </nav>
         )}
